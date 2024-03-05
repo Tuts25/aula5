@@ -7,6 +7,5 @@ protected String email;
 Conta(String Email) {
 	this.saldo = 0;
 	this.email = email; 
+	}
 }
-}
- 

@@ -26,9 +26,9 @@ public String Deposito (double ValorDepositado) {
 saldo += ValorDepositado;
 return("Valor Sacado: " + ValorDepositado
 		+ "\nValor Saldo Após o Saque: " + saldo);
-}
+	}
 
 public double getSaldo() {
 	return saldo;
-}
+	}
 }
