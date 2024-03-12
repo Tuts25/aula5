@@ -6,11 +6,11 @@ private String Nome, Celular, Email, Senha, Cpf;
 private boolean EstaLogado;
 
   public Usuario (String Nome, String Celular, String Email, String Cpf, String Senha) {
-this.Nome = Nome;
-this.Celular = Celular;
-this.Email = Email;
-this.Senha = Senha;
-this.Cpf = Cpf;
+	this.Nome = Nome;
+	this.Celular = Celular;
+	this.Email = Email;
+	this.Senha = Senha;
+	this.Cpf = Cpf;
 }
 
 void Autenticacao (String Email, String Senha) {
